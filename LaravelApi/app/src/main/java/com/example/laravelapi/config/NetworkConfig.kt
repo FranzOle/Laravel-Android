@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 
 class NetworkConfig {
-    val Base_URL:String = "http://127.0.0.1:8000/api/"
+    val Base_URL:String = "http://192.168.45.185:8000/api/"
 
     private fun setOkhttp(): OkHttpClient {
         val interceptor = HttpLoggingInterceptor().setLevel(
